@@ -1,0 +1,100 @@
+
+
+.body{
+    background-color: #173454;
+    width: 650px;
+    height: 1000px;
+    margin: auto;
+    border: 3px solid #148fc8;
+    border-radius: 20px;
+}
+.firstline{
+    display: flex;
+    padding: 5%;
+    background-color: #1abafe;
+}
+
+.user{
+    background-color: #e15a7b;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    text-align: center;
+    padding: 5px;
+    margin-left: 20px;
+    color: white;
+}
+
+.account{
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    border: 6px solid #1abafe; 
+    color: white;
+}
+
+
+.info{
+    display: flex;
+    margin: auto;
+    margin-bottom: 30px;
+    width: 90%;
+    height: 150px;
+    border-radius: 20px;
+    border: 3px solid #148fc8;
+}
+
+.balances{
+    justify-items: right;
+    width: 70%;
+}
+
+.money{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.optionone{
+    
+    margin: auto;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+
+}
+
+.optiontwo{
+    
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3%;
+    width: 90%;
+    padding: 5px;
+}
+.longbox{
+    background-color: #122a44;
+    border: 3px solid #148fc8;
+    display: flex;
+    margin: auto;
+    width: 45%;
+    height: 60px;
+    border-radius: 20px;
+    color: white;
+}
+
+.smallbox{
+    background-color: #122a44;
+    border: 3px solid #148fc8;
+    margin: auto;
+    width: 30%;
+    
+    height: 150px;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+
+    
+}
