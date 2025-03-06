@@ -11,7 +11,7 @@
 .firstline{
     display: flex;
     padding: 5%;
-    background-color: #1abafe;
+    color: white;
 }
 
 .user{
@@ -32,6 +32,7 @@
     border-radius: 100%;
     border: 6px solid #1abafe; 
     color: white;
+    
 }
 
 
@@ -43,16 +44,19 @@
     height: 150px;
     border-radius: 20px;
     border: 3px solid #148fc8;
+    
 }
 
 .balances{
     justify-items: right;
     width: 70%;
+    color: white;
 }
 
 .money{
     display: flex;
     flex-wrap: wrap;
+   
 }
 
 .optionone{
@@ -66,18 +70,22 @@
 }
 
 .optiontwo{
-    
-    margin: auto;
+    width: 90%;
+    height: 350px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
     gap: 3%;
-    width: 90%;
-    padding: 5px;
+
 }
 .longbox{
     background-color: #122a44;
     border: 3px solid #148fc8;
     display: flex;
+
+    flex-direction: row;
+    align-items: center;
     margin: auto;
     width: 45%;
     height: 60px;
@@ -96,5 +104,16 @@
     text-align: center;
     color: white;
 
+    
+}
+
+.icon{
+    font-size: 50px;
+    padding-top: 15%;
+}
+
+.icontwo{
+    font-size: 40px;
+    
     
 }
