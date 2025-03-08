@@ -10,6 +10,7 @@
 }
 .firstline{
     display: flex;
+    flex-direction: row;
     padding: 5%;
     color: white;
 }
@@ -23,6 +24,14 @@
     padding: 5px;
     margin-left: 20px;
     color: white;
+    display: block;
+    align-self: center;
+}
+
+.accbox{
+    width: 30%;
+    margin: auto;
+    
 }
 
 .account{
@@ -32,7 +41,11 @@
     border-radius: 100%;
     border: 6px solid #1abafe; 
     color: white;
-    
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: auto;
 }
 
 
@@ -48,17 +61,27 @@
 }
 
 .balances{
-    justify-items: right;
     width: 70%;
     color: white;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    
 }
 
 .money{
     display: flex;
-    flex-wrap: wrap;
-   
+    flex-direction: row;
 }
-
+.m-0{
+    margin: 0;
+    
+}
+.moneyicon{
+    align-self: center;
+    padding-left: 5px;
+}
 .optionone{
     
     margin: auto;
@@ -107,6 +130,11 @@
     
 }
 
+.accicon{
+    font-size: 40px;
+    
+}
+
 .icon{
     font-size: 50px;
     padding-top: 15%;
@@ -116,4 +144,8 @@
     font-size: 40px;
     
     
+}
+
+.acctext{
+    margin: 0;
 }
